@@ -49,3 +49,50 @@ a {
     padding: 20px;
     margin-bottom: 20px;
 }
+
+/* Estilo para o cabeçalho */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para os blocos de campanha */
+.campanha {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: #4b566a;
+}
+
+.campanha h2 {
+    color: #333;
+}
+
+.campanha p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Estilo para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: #333;
+}
+
+/* Estilo para o rodapé */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

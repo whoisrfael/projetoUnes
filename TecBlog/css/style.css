@@ -1,0 +1,80 @@
+/* Limpar formatações */ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+
+#area-cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens, #menu-lateral {
+    background: orange;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#menu-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Formatação do Menu */
+
+a:link, a:visited {
+    color: #e6e6e6;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: #f7b600;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Formatação Geral */
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco {
+    color: #e6e6e6;
+}
