@@ -94,7 +94,6 @@ body.fotos #navegacao a#fotos
 
 #primario {
     width: 270px;
-    background: blue;
     float: left;
     margin: 0 0 20px 195px;
 }
@@ -110,7 +109,6 @@ body.fotos #navegacao a#fotos
 
 #secundario {
     width: 270px;
-    background: green;
     float: left;
     margin: 0 0 20px 15px;
 }
@@ -175,7 +173,35 @@ input.submit {
     margin-top: 5px;
 }
 
+/*Formatando Imagens*/
 
+img {
+    border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal {
+    width: 97%;
+    border: 3px solid #dfdfdf;
+}
+
+/*Formantando cabeçalhos*/
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #b10333;
+    color: #294c71;
+}
 
 
 #container-rodape {
